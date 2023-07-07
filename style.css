@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+.intro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.hr-intro{
+    /* align-items: center; */
+    width: 75%;
+    margin: 20px auto;
+    /* margin auto se kya hota joh bhi size hai...
+     for eg:- abhi ye hr tag ka 75% width hai toh 100 ka screen size mai -75 is = 25.... So the remianing 25% will be distributed both side of this hr tag */
+     border: 1px dashed;
+     /* margin-bottom: 20px; */
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    max-width: 90%;
+    /* background-color: rgb(173, 201, 219); */
+    height: auto;
+    /* border: 2px solid; */
+    gap: 5%;
+}
+
+.left{
+    /* border: 2px solid green; */
+    flex: 1 1 40%;
+    /* border: 1px solid; */
+    margin: 20px;
+}
+
+.left h3{
+    margin: 10px 20px;
+}
+
+.in-main{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 20px;
+    text-align: center;
+    /* border: 1px solid; */
+}
+
+.front-color{
+    color: rgb(233, 14, 14);
+}
+
+
+.back-color{
+    color: darkorange;
+}
+
+.divider{
+    border: 1px solid;
+}
+
+.right{
+    /* border: 2px solid red; */
+    flex: 1 1 40%;
+    /* border: 1px solid; */
+    margin: 20px;
+}
+
+.right h3{
+    margin: 10px 20px;
+}
+
+
+.right table{
+    border: 1px solid;
+    margin: 30px 20px;
+}
+
+th, td{
+    border: 1px solid;
+    padding: 34px;
+    /* background: #000; */
+}
+
+.main-block{
+    width: 60%;
+    margin: auto;
+}
+
+.form-head{
+    margin: 20px 0px;
+}
+
+.account-details > div{
+    margin: 10px;
+}
+
+.personal-details >div{
+    margin: 10px;
+}
+
+.terms-mailing> div{
+    margin: 10px;
+}
+
+.last-btn{
+    margin: 20px 10px;
+    padding: 8px 12px;
+    font-weight:600;
+    font-size: small;
+    background-color: rgb(142, 231, 164);
+    border-radius: 6px;
+}
+
+
+.map{
+    width: 90%;
+    margin: auto;
+}
+
+.head-map{
+    margin: 20px 0px;
+}
+
+.map-frame{
+    margin: auto;
+    width: 80%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .main-section{
+    display: flex;
+    width: 100%;
+}
+
+.skill-section{
+    display: flex;
+    flex: 1 1 40%;
+    border: 2px solid red;
+}
+
+.education-section{
+    display: flex;
+    flex: 1 1 40%;
+    border: 2px solid red;
+} */
+
+/* .skill{
+    flex-direction:column;
+    margin: 20px;
+    border: 1px solid;
+    text-align: center;
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    justify-content: space-around;
+    border: 1px solid;
+} */
+
+.front-skill{
+    color: darkred;
+}
+
+.back-skill{
+    color: darkorange;
+}
+
+/* .edu-table{
+    border: 1px solid;
+} */
+
+table{
+    border-collapse: collapse;
+    /* padding: 10px; */
+    text-align: center;
+    width: 60%;
+    margin: auto;
+}
+
+th, td{
+    padding: 10px;
+}
+
+
+
